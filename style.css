@@ -19,9 +19,13 @@ left: 7%;
 }
 .jumbotron .display{
     color: white;
-    box-shadow: 1px 2px 5px 5px gray;
-    box-shadow: 0px 0px 6px 6px darkgrey;
-    border-radius: 15px;
-    padding: 0px 15px;
+    border-radius: 50% 20% / 10% 40%;
+    padding: 35px 25px;
 
 }
+.jumbotron .display:hover{
+    box-shadow: 0 0 80px #8E44AD;
+    background: #8E44AD;
+    transition: 1.5s;
+}
+
